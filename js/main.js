@@ -6,6 +6,8 @@ const clueField = document.querySelector('.js-clue');
 const userImput = document.querySelector('.js-number');
 const button = document.querySelector('.js-try-button');
 const modal = document.querySelector('.js-modal');
+const modalNumber = document.querySelector('.js-modal-number');
+const modalRecount = document.querySelector('.js-moda-recount');
 
 const reset = document.querySelector('.js-modal');
 
@@ -36,6 +38,8 @@ function handleGuessNumber() {
   } else {
     clueField.innerHTML = 'Has ganado campeona!!!';
     modal.classList.remove('hidden');
+    modalNumber.innerHTML = randomNumber;
+    modalRecount.innerHTML = `Has acertado el número en ${attemps} intentos`;
   }
 }
 

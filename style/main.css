@@ -3,6 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
 }
 .game {
   margin: 50px;
@@ -94,6 +96,10 @@
   width: 100px;
   height: 50px;
   cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  color: #54585a;
+  font-weight: bold;
 }
 
 .hidden {
