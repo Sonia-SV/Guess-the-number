@@ -35,7 +35,7 @@ function handleGuessNumber() {
     clueField.innerHTML = 'Pista: Demasiado alto.';
   } else {
     clueField.innerHTML = 'Has ganado campeona!!!';
-    // modal.classList.remove('hidden');
+    modal.classList.remove('hidden');
   }
 }
 
