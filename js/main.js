@@ -49,5 +49,4 @@ function handleHiddenModal() {
 }
 
 button.addEventListener('click', handleGuessNumber);
-
 reset.addEventListener('click', handleHiddenModal);
