@@ -8,20 +8,50 @@
     <link href="./style/main.css" rel="stylesheet" />
   </head>
   <body>
-    <form action="" method="POST">
-      <label for="number">Introduce aquí tu número</label>
-      <input type="number" name="number" id="number" class="number js-number" />
-      <button id="try-button" class="try-button js-try-button" type="button">
-        Prueba
-      </button>
-    </form>
-    <p class="clue js-clue">
-      Pista: Escribe el número y dale a Prueba
-    </p>
-    <p class="attempt js-attempts">
-      Número de intentos: 0
-    </p>
-
+    <div class="modal js-modal hidden">
+      <div class="modal__box">
+        <h2 class="modal__congrats">
+          ¡Enhorabuena!
+        </h2>
+        <h3 class="modal__number js-modal-number">
+          87
+        </h3>
+        <h3 class="modal__recount js-modal-recount">
+          <span>¡Has ganado campeona!</span>
+          <span>Has acertado el número en 23 intentos</span>
+        </h3>
+        <button
+          id="try-button"
+          class="modal__reset js-modal-reset"
+          type="button"
+        >
+          <a href="index.html"> Reiniciar</a>
+        </button>
+      </div>
+    </div>
+    <div class="game">
+      <h1 class="h1">Adivina el número:</h1>
+      <form action="" method="POST">
+        <label class="number__info" for="number"
+          >Introduce aquí tu número:</label
+        >
+        <input
+          type="number"
+          name="number"
+          id="number"
+          class="number js-number"
+        />
+        <button id="try-button" class="try-button js-try-button" type="button">
+          Prueba
+        </button>
+      </form>
+      <p class="clue js-clue">
+        Pista: Escribe el número y dale a Prueba
+      </p>
+      <p class="attempt js-attempts">
+        Número de intentos: 0
+      </p>
+    </div>
     <script src="./js/main.js" type="text/javascript"></script>
   </body>
 </html>

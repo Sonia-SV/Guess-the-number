@@ -1,3 +1,101 @@
 * {
-  background-color: aqua;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+.game {
+  margin: 50px;
+  font-size: 30px;
+}
+
+.h1 {
+  font-size: 50px;
+  color: #54585a;
+}
+
+.number__info {
+  color: #8a8888;
+  margin-top: 20px;
+}
+
+.number {
+  display: block;
+  background-color: #e4e4e4;
+  border: none;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 25px;
+  color: #54585a;
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 200px;
+  height: 40px;
+}
+
+.try-button {
+  margin-top: 20px;
+  width: 100px;
+  height: 40px;
+  background-color: #14d9c4;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+.clue,
+.attempt {
+  margin-top: 20px;
+  color: #54585a;
+  border: #cfcfcf solid 4px;
+  padding: 7px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* .modal {
+  width: 100%;
+  height: 100vh;
+  background-color: #099d8e5d;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__box {
+  background-color: #14d9c4;
+  color: white;
+  border-radius: 50px;
+  width: 700px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal__number {
+  font-size: 100px;
+  padding: 20px;
+}
+
+.modal__recount span {
+  text-align: center;
+  display: block;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.modal__reset {
+  font-size: 20px;
+  background-color: white;
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+} */

@@ -5,6 +5,9 @@ const attemptsField = document.querySelector('.js-attempts');
 const clueField = document.querySelector('.js-clue');
 const userImput = document.querySelector('.js-number');
 const button = document.querySelector('.js-try-button');
+const modal = document.querySelector('.js-modal');
+
+const reset = document.querySelector('.js-modal');
 
 //GENERATE RANDOM NUMBER
 function getRandomNumber(max) {
@@ -15,7 +18,7 @@ console.log(`The number ${randomNumber} has been generated randomly`);
 
 let attemps = 0;
 
-//FUNCTIONS
+//FUNCTION
 
 function handleGuessNumber() {
   attemps++;
@@ -32,7 +35,15 @@ function handleGuessNumber() {
     clueField.innerHTML = 'Pista: Demasiado alto.';
   } else {
     clueField.innerHTML = 'Has ganado campeona!!!';
+    // modal.classList.remove('hidden');
   }
 }
 
+//MODAL
+function handleHiddenModal() {
+  modal.classList.add('hidden');
+}
+
 button.addEventListener('click', handleGuessNumber);
+
+reset.addEventListener('click', handleHiddenModal);
