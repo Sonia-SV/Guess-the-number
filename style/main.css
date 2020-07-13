@@ -14,14 +14,14 @@
 }
 
 .header {
-  height: 20vh;
+  height: 15vh;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   flex-direction: column;
 }
 .header__h1 {
-  font-size: 60px;
+  font-size: 40px;
   color: white;
   text-transform: lowercase;
   text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.315);
@@ -31,12 +31,12 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  height: 60vh;
-  padding: 50px;
+  height: 65vh;
+  padding: 30px;
 }
 
 .game__form {
-  padding: 30px;
+  padding: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -50,7 +50,7 @@
 
 .game__form__label {
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -95,11 +95,11 @@
 }
 
 .game__reset__button {
-  width: 150px;
-  height: 80px;
+  width: 120px;
+  height: 60px;
   background-color: white;
   color: #ec3926;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
   border-radius: 40px;
   cursor: pointer;
@@ -110,7 +110,7 @@
 .game__clue,
 .game__attempt {
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
   margin: 20px;
   padding: 8px;
@@ -123,8 +123,8 @@
   background-color: #ec3926;
   height: 5vh;
   color: white;
-  margin-left: 40px;
-  font-size: 20px;
+  padding-left: 40px;
+  font-size: 15px;
 }
 
 .modal {
