@@ -24,6 +24,7 @@
   font-size: 60px;
   color: white;
   text-transform: lowercase;
+  text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.315);
 }
 .game {
   display: flex;
@@ -123,6 +124,7 @@
   height: 5vh;
   color: white;
   margin-left: 40px;
+  font-size: 20px;
 }
 
 .modal {
