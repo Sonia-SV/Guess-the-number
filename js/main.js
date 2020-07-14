@@ -69,6 +69,7 @@ const releaseModal = () => {
 };
 
 function handleHiddenModal() {
+  handleResetGame();
   modal.classList.add('hidden');
 }
 
@@ -77,6 +78,7 @@ const handleResetGame = () => {
   resetAttemps();
   paintClue('Pista: Escribe el número y dale a Prueba');
   getRandomNumber(100);
+  userImput.value = '';
 };
 
 //EXECUTE FUNCTONS
